@@ -1,0 +1,16 @@
+GPS C/A PRN: 20
+Code length: 1023 chips
+Code rate: 1.023 MHz
+Sampling: 97.752 samples/chip, 100.000 MHz
+Coherent integration: 1.000 ms (100000 samples)
+Received delay: 30.000 ms
+Received Doppler: 1000 Hz
+Early-late spacing: 1.0 chip
+Delay error scan: [-100, 100] chips, step 0.1 chip
+Matched-Doppler correlation at zero error: 100000.000000
+500 Hz Doppler mismatch magnitude ratio: 0.636620
+DLL carrier phase cases: 0 and 180 degrees
+Discriminators: coherent E-L, envelope E-L, power E^2-L^2
+Noise: complex AWGN, per-sample SNR in dB; RNG seed 20261029
+Noise SNR cases: 0, -10, -20, -50 dB
+For readable curves, figures zoom to +/-2 chips; MAT data retain the full +/-100 chip scan.
