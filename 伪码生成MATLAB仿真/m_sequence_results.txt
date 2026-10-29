@@ -1,0 +1,11 @@
+Polynomial: 1 + x^2 + x^3 + x^6 + x^8 + x^9 + x^10
+Register length: 10
+Sequence length: 1023
+Initial state: all ones
+Logic mapping: 0 -> +1, 1 -> -1
+Correlation convention: Rxy(k) = sum_n x(n) y(n-k)
+C1 balance (+1/-1): 511/512
+C2 balance (+1/-1): 511/512
+Autocorrelation: R(0) = 1023; R(k) = -1 for k = 1,...,1022
+C2 = circshift(C1, -320)
+C1/C2 cross-correlation peak: 1023 at cyclic shift 320
